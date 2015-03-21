@@ -1,0 +1,37 @@
+{
+  "name": "Tickles",
+  "version": "0.1",
+  "description": "Ticket Management Software",
+  "keywords": [
+    "Ticket",
+    "inciden",
+    "management",
+    "helpdesk",
+    "customer"
+  ],
+  "authors": [
+    "Salvador P"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "modernizr": "latest",
+    "jquery": "latest",
+    "jquery-ui": "latest",
+    "angular": "latest",
+    "underscore": "latest"
+  },
+  "install" : {
+    "path" : {
+      "css": "public/css",
+      "js": "public/js"
+    }
+  }
+}
