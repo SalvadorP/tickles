@@ -55,11 +55,11 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'database'  => env('DB_DATABASE', 'tickles'),
+            'username'  => env('DB_USERNAME', 'tickles'),
+            'password'  => env('DB_PASSWORD', '1234'),
             'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
+            'collation' => 'utf8_geenral_ci',
             'prefix'    => '',
             'strict'    => false,
         ],
@@ -112,7 +112,7 @@ return [
 
     'redis' => [
 
-        'cluster' => false,
+        'cluster' => true,
 
         'default' => [
             'host'     => '127.0.0.1',
