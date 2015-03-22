@@ -19,3 +19,26 @@ Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
 ]);
+
+/*
+|--------------------------------------------------------------------------
+| Custom Application Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+
+
+/*
+|--------------------------------------------------------------------------
+| RESTful Application Routes
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::resource('organization', 'OrganizationController');
+Route::resource('department', 'DepartmentController');
+Route::resource('project', 'ProjectController');
+Route::resource('priority', 'PriorityController');
+Route::resource('status', 'StatusController');
+Route::resource('type', 'TypeController');

@@ -1,4 +1,6 @@
-<?php namespace app\Http\Controllers;
+<?php 
+
+namespace app\Http\Controllers;
 
 class HomeController extends Controller
 {
