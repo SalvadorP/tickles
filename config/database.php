@@ -54,12 +54,12 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'tickles'),
-            'username'  => env('DB_USERNAME', 'tickles'),
-            'password'  => env('DB_PASSWORD', '1234'),
+            'host'      => 'localhost',
+            'database'  => 'tickles',
+            'username'  => 'tickles',
+            'password'  => '1234',
             'charset'   => 'utf8',
-            'collation' => 'utf8_geenral_ci',
+            'collation' => 'utf8_general_ci',
             'prefix'    => '',
             'strict'    => false,
         ],
